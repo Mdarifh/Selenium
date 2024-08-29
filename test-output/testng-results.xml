@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-29T13:30:55 IST" name="Default suite" finished-at="2024-08-29T13:31:16 IST" duration-ms="20772">
+    <groups>
+    </groups>
+    <test started-at="2024-08-29T13:30:55 IST" name="Default test" finished-at="2024-08-29T13:31:16 IST" duration-ms="20772">
+      <class name="TestNG.Dependencies">
+        <test-method is-config="true" signature="Start()[pri:0, instance:TestNG.Dependencies@477b4cdf]" started-at="2024-08-29T13:30:55 IST" name="Start" finished-at="2024-08-29T13:31:09 IST" duration-ms="14077" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Start -->
+        <test-method signature="LandingPage()[pri:1, instance:TestNG.Dependencies@477b4cdf]" started-at="2024-08-29T13:31:09 IST" name="LandingPage" finished-at="2024-08-29T13:31:09 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LandingPage -->
+        <test-method signature="Calculator()[pri:2, instance:TestNG.Dependencies@477b4cdf]" started-at="2024-08-29T13:31:09 IST" name="Calculator" finished-at="2024-08-29T13:31:14 IST" depends-on-methods="TestNG.Dependencies.LandingPage" duration-ms="5196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Calculator -->
+        <test-method signature="Home()[pri:3, instance:TestNG.Dependencies@477b4cdf]" started-at="2024-08-29T13:31:14 IST" name="Home" finished-at="2024-08-29T13:31:15 IST" depends-on-methods="TestNG.Dependencies.Calculator, TestNG.Dependencies.LandingPage" duration-ms="592" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Home -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TestNG.Dependencies@477b4cdf]" started-at="2024-08-29T13:31:15 IST" name="tearDown" finished-at="2024-08-29T13:31:16 IST" duration-ms="680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestNG.Dependencies -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
